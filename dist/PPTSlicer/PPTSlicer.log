@@ -1,0 +1,6 @@
+2025-11-23 23:59:03,069 - INFO - MainThread - 程序启动，日志系统已配置。
+2025-11-23 23:59:03,858 - INFO - MainThread - DPI感知设置成功。
+2025-11-23 23:59:04,210 - INFO - MainThread - MainApplication 初始化开始。
+2025-11-23 23:59:04,268 - INFO - MainThread - MainApplication 初始化完成。
+2025-11-24 00:51:38,586 - INFO - MainThread - 接收到窗口关闭事件。
+2025-11-24 00:51:38,591 - INFO - MainThread - 配置已保存，正在销毁窗口。
