@@ -68,8 +68,9 @@ PPTSlicer 是一个轻量级的 Python 桌面应用程序，专为学生、教�
 ### 安装依赖库
 ```bash
 pip install opencv-python numpy pillow plyer keyboard pywin32
+```
 项目结构
-Text
+```Text
 PPTSlicer/
 ├── app_ui.py           # GUI 主入口
 ├── monitor.py          # 核心监控线程与图像处理逻辑
@@ -82,13 +83,15 @@ PPTSlicer/
 │   └── 22.wav          # 成功音
 ├── PPTSlicer.spec      # PyInstaller 打包配置文件
 └── settings.json       # 用户配置文件 (自动生成)
+```
 源码运行
-bash
+```bash
 python app_ui.py
+```
 打包为 Exe
 本项目使用 PyInstaller 进行打包，并已配置好 .spec 文件以处理 OpenCV 和 Numpy 的依赖问题。
 
-bash
+```bash
 # 确保已安装 pyinstaller
 pip install pyinstaller
 
@@ -97,5 +100,6 @@ pip install pyinstaller
 
 # 执行打包
 pyinstaller PPTSlicer.spec
+```
 📄 许可证
 MIT License
