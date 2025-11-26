@@ -6,7 +6,8 @@ SETTINGS_FILE = "settings.json"
 DEFAULT_SETTINGS = {
     "save_path": "",
     "threshold": 5.0,
-    "hotkey_timeout": 5
+    "hotkey_timeout": 5,
+    "auto_mode": False  # 新增配置项
 }
 
 def load_settings():
@@ -15,7 +16,6 @@ def load_settings():
         try:
             with open(SETTINGS_FILE, 'r', encoding='utf-8') as f:
                 settings = json.load(f)
-                # 确保所有键都存在，防止因版本更新导致缺少键
                 for key, value in DEFAULT_SETTINGS.items():
                     settings.setdefault(key, value)
                 return settings

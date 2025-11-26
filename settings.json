@@ -1,5 +1,6 @@
 {
     "save_path": "D:/\u5b66\u6821\u5de5\u4f5c/PPT_snaptest/\u76ee\u6807\u6587\u4ef6\u5939",
     "threshold": 3.1151515151515152,
-    "hotkey_timeout": 5
+    "hotkey_timeout": 5,
+    "auto_mode": true
 }
